@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Henrys site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Henrys site</description>
+    <title>math on Henrys site</title>
+    <link>http://localhost:1313/categories/math/</link>
+    <description>Recent content in math on Henrys site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 08:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2019 08:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/article1/</link>
@@ -24,15 +24,6 @@ Podnadpis </description>
       
       <guid>http://localhost:1313/posts/article2/</guid>
       <description>youtube $$ \begin{pmatrix} a &amp;amp; b \\ c &amp;amp; d \end{pmatrix} $$</description>
-    </item>
-    
-    <item>
-      <title>Who am I?</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Sun, 07 Apr 2019 08:47:11 +0100</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
     </item>
     
   </channel>
