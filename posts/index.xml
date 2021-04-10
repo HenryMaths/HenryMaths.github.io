@@ -6,24 +6,15 @@
     <description>Recent content in Posts on Henrys site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Apr 2019 08:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Apr 2021 02:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/article1/</link>
-      <pubDate>Sun, 07 Apr 2019 08:47:11 +0100</pubDate>
+      <title>How I ended up engaged with math</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 09 Apr 2021 02:47:11 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/article1/</guid>
-      <description>Můj první úžasný článek
-Podnadpis </description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>http://localhost:1313/posts/article2/</link>
-      <pubDate>Sun, 07 Apr 2019 08:47:11 +0100</pubDate>
-      
-      <guid>http://localhost:1313/posts/article2/</guid>
-      <description>youtube $$ \begin{pmatrix} a &amp;amp; b \\ c &amp;amp; d \end{pmatrix} $$</description>
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>Motivation Well&amp;hellip; often times people around me say things like &amp;ldquo;I hate math. It is hard. I&amp;rsquo;m not a math person, so I suck at it&amp;hellip; Why do we have to learn this subject although it is totally useless in life and is only pain for most of the students?&amp;rdquo;
+ You know&amp;hellip; I like math and I know a lot about it&amp;rsquo;s applications thus whenever I hear something like this.</description>
     </item>
     
   </channel>
