@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>math life path on Henrys site</title>
+    <link>http://localhost:1313/categories/math-life-path/</link>
+    <description>Recent content in math life path on Henrys site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Apr 2021 02:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/math-life-path/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I ended up engaged with math</title>
+      <link>http://localhost:1313/posts/first-post/</link>
+      <pubDate>Fri, 09 Apr 2021 02:47:11 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/first-post/</guid>
+      <description>Motivation Well&amp;hellip; often times people around me say things like &amp;ldquo;I hate math. It is hard. I&amp;rsquo;m not a math person, so I suck at it&amp;hellip; Why do we have to learn this subject although it is totally useless in life and is only pain for most of the students?&amp;rdquo;
+ You know&amp;hellip; I like math and I know a lot about it&amp;rsquo;s applications thus whenever I hear something like this.</description>
+    </item>
+    
+  </channel>
+</rss>
