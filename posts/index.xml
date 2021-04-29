@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Henrys site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Apr 2021 02:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Apr 2021 02:47:11 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Binary operation</title>
+      <link>http://localhost:1313/posts/third-post/</link>
+      <pubDate>Thu, 29 Apr 2021 02:47:11 +0100</pubDate>
+      
+      <guid>http://localhost:1313/posts/third-post/</guid>
+      <description> </description>
+    </item>
+    
     <item>
       <title>Why is math so abstract</title>
       <link>http://localhost:1313/posts/second-post/</link>
