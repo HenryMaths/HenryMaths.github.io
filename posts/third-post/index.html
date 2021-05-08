@@ -51,7 +51,7 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Binary operation"/>
-<meta name="twitter:description" content=" "/>
+<meta name="twitter:description" content="Nothing really"/>
 
 
     
@@ -124,10 +124,92 @@
             </div>
 
             <hr>
+<h1 id="introduction">Introduction</h1>
+<p>A week ago I wrote my article about <em>abstraction</em> and I wanted to show some basic example of how college math <em>abstraction</em> works.
+Example that doesn&rsquo;t need any high level maths knowledge yet. After some thought, <em>binary operation</em> came to my mind. It&rsquo;s not that useful and fundamental of an example but still 
+pretty good demonstration of college math way of thinking. I mean&hellip; It is useful in mathematical stuff such as defining <em>vector spaces</em> and <em>groups</em> but doesn&rsquo;t have any major consequences by itself.</p>
+<h1 id="exploration-and-abstraction">Exploration and abstraction</h1>
+<p>First let&rsquo;s find out what objects we will be studying. I guess the best way will be to show you right away.
+$$a+b \qquad a \cdot b \qquad \frac{a}{b} \qquad a^b$$
+These are the examples of what we&rsquo;ll define abstractly as binary operation. See that it&rsquo;s something that you can do to two numbers to get another number. So from start we will use definition that</p>
+<blockquote>
+<p><em><strong>binary operation</strong></em> is an operation that takes two numbers as an input and spits out another single number as an output.</p>
+</blockquote>
+<p>For those of you familiar with functions, notice that this definition is nothing other than a function of two variables.
+Well, have you ever think of adding some numbers as taking a function of these two numbers. I found it interesting to think about it that way. It really is just a function, all that&rsquo;s different is notation.
+In case you don&rsquo;t know some of these words operation, transformation, function or mapping, they are all basically interchangeable so don&rsquo;t try to find anything difficult in these.</p>
+<p>Also notice that something like this \((a+b)+(c+d)\) is also just binary operation between two numbers \((a+b)\) and \((c+d)\). It doesn&rsquo;t matter how complex the expression becomes it is always just composed of some binary operations.</p>
+<p>Well now we can classify those binary operations by some properties they have.</p>
+<h4 id="commutativity">Commutativity</h4>
+<p>So first we can notice that for some operations we can interchange the numbers. See&hellip;
+$$a + b = b + a $$
+$$ a \cdot b = b \cdot a$$
+This definitely isn&rsquo;t true for every operation
+$$ a^b \neq b^a$$
+$$ \frac{a}{b} \neq \frac{b}{a}$$
+This is probably why division and exponentiation notation is so different from addition and multiplication notation. It is to point out that they can&rsquo;t be interchanged freely.
+This first property is called <strong>commutativity</strong>, later I will summarize all these properties, but now focus only on understanding them.</p>
+<h4 id="associativity">Associativity</h4>
+<p>Another property is that
+$$(a+b)+c = a+(b+c)$$
+$$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$
+This is called <strong>associativity</strong> and it tells us that it doesn&rsquo;t matter in which order we do the operations when they are composed.<br>
+These parentheses are really important to know how was the expression composed, but commonly we don&rsquo;t need to write them in the case that binary operation is <em>associative</em>.</p>
+<h4 id="distributivity">Distributivity</h4>
+<p>When we compose expressions of different binary operations. There is this property that
+$$a \cdot (b+c) = (a \cdot b) + (a \cdot c)$$
+In this special case, that property is called <em>distributivity</em> of multiplication with respect to addition.</p>
+<h1 id="more-general-binary-operation">More general binary operation</h1>
+<p>This whole binary operation abstraction might probably still seem strange though. Most of these properties we wanted to generalize still applies just to addition and multiplication.
+So does it really makes sense to try to generalize just two binary operations? Or are there some other binary operations that can be classified like that&hellip;?<br>
+Well&hellip; Not really&hellip; maybe we could define some interesting operations, but they probably wouldn&rsquo;t be much of a useful ones. With our old definition of binary operation it is actually pretty useless.</p>
+<p>In the last article I wrote that variables are abstraction of numbers but I was lying a bit. It is definitely true and it is a sufficient way to think about variables in school.
+But variables play some bigger role in mathematics.<br>
+Actually they are not abstraction of numbers, they are abstraction of elements of some set. We just thought about special case when our set was the set of real numbers, so we used variables to represent these.
+But there isn&rsquo;t anything special about set of real numbers, we can do the same with any other set and the idea of variables is still the same, they represent any possible element of that set. We just need to specify which set it belongs to.</p>
+<p>With this more general idea about variables, we can now think of \(+\) and \(\cdot\) and others just as symbols to represent some operation on some set, not necessarily number addition and multiplication. We can see these symbols throughout math as vector addition, matrix addition, matrix multiplication and others.<br>
+While having this in mind we can redefine binary operation to more general case.</p>
+<blockquote>
+<p><em><strong>Binary operation</strong></em> is an operation that takes two elements of some set as an input and spits out some element of the same set as an output.</p>
+</blockquote>
+<p>We can write that same definition formally, so&hellip;</p>
+<blockquote>
+<p>If we have some set \(M\), then mapping
+\(\circ : M \times M \longrightarrow M \)
+is a binary operation on that set</p>
+</blockquote>
+<p>This is really just mathematical notation way to say that \(\circ\) is an operation that takes two elements of \(M\) and gives you element of \(M\). I used this symbol \(\circ\) to point out that it could really be any operation.</p>
+<p>Then if \(a, b\) and \(c\) are elements of M and \(\circ\) and \(\star\) are some binary operations on that set. We can rewrite their properties.
+I&rsquo;ll rewrite them formally. So we will have this complete formal definition.</p>
+<blockquote>
+<p>Let \(a,b,c \in M\) and let \(\circ\) be some binary operation on M, then this binary operation is</p>
+<ul>
+<li><strong>commutative</strong> if
+$$a \circ b = b \circ a$$</li>
+<li><strong>associative</strong> if
+$$ (a \circ b) \circ c = a \circ (b \circ c)$$</li>
+</ul>
+<p>moreover if \(\star \) is some other binary operation on \(M\) then this binary operation is</p>
+<ul>
+<li><strong>distributive</strong> with respect to \(\circ\) if
+$$a \star (b \circ c) = (a \star b) \circ (a \star c)$$</li>
+</ul>
+</blockquote>
+<p>In reality that distributivity is just left-distributivity and we should define right-distributivity too, but let&rsquo;s end it here.</p>
+<h1 id="usefulness">Usefulness</h1>
+<p>This new definition already has some meaning. Earlier I mentioned that it is used to define vector spaces. Vector space is a set which elements can be represented as vectors.
+It is a bit more complicated. But&hellip; classic vectors are all about vector addition and scalar multiplication, which are basically both binary operations. So&hellip; almost all you need for a set to be a vector space is to have defined some binary operations on that set, that acts someway similar to vector addition and scalar multiplication.</p>
+<p>This is whole reason why we defined binary operation on any set and why we defined exactly these properties of binary operations, because these are the properties that vector addition and scalar multiplication has. We don&rsquo;t really care what binary operations will be defined on our vector space. We just need it to have these properties.<br>
+Therefore in order to build theory of vectors spaces, we can just use abstract binary operations that also has these properties.</p>
+<p>It is quite amazing how many facts and properties of a vector space can be proved from its quite short formal definition, which I won&rsquo;t write to you yet. Theory of vector spaces is really dense and this abstract definition of binary operation plays a fundamental role in it.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>This was an example of some college math abstraction which isn&rsquo;t so useful on it&rsquo;s own. But as I said has a big role in much more useful abstractions such as vector spaces and groups.<br>
+Don&rsquo;t mind if you didn&rsquo;t catch some formal terms or notations. I just wanted to mention them in order to slowly build a connections between formal and intuitive definitions.<br>
+Hope you like this article.</p>
 </div>
         <div class="post-footer">
             <div class="info">
-                <span class="separator"><a class="category" href="/categories/abstractions/">abstractions</a></span>
+                <span class="separator"><a class="category" href="/categories/abstractions/">abstractions</a><a class="category" href="/categories/college-math/">college math</a></span>
                 
             </div>
         </div>
